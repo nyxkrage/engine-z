@@ -1,0 +1,4 @@
+/target
+
+# Comment this line for binary projects
+Cargo.lock
