@@ -7,3 +7,12 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.40"
+configr = "0.8.0"
+futures = "0.3.15"
+hyper = { version = "0.14.8", features = ["full"] }
+lazy_static = "1.4.0"
+path-absolutize = { version = "3.0.10", features = ["once_cell_cache"] }
+serde = "1.0.126"
+tokio = { version = "1.6.0", features = ["full"] }
+toml = "0.5.8"
