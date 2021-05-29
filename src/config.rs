@@ -13,6 +13,7 @@ pub struct AppConfig {
 
 	pub web_root: PathBuf,
 	pub default_project: String,
+	pub index_file: String,
 }
 
 #[derive(Deserialize, Serialize, Debug, Clone)]
@@ -32,6 +33,7 @@ impl Default for AppConfig {
 			catch_all: CatchAllPort::First,
 			web_root: PathBuf::from("/var/www"),
 			default_project: String::from("html"),
+			index_file: String::from("index.html"),
 		}
 	}
 }
